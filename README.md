@@ -34,7 +34,7 @@
 
 ### Задание 2
 
-1. 
+1.
 
 stages:
   - build
@@ -58,3 +58,6 @@ deploy-job:
   script:
     - echo "Deploy started"
     - echo "Deploy finished"
+
+![замена ориджин](img/zamena-origin.png)
+![сборка](img/status-jobs.png)
