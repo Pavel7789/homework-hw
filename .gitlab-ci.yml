@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build-job:
+  stage: build
+  script:
+    - echo "Build started"
+    - echo "Build finished"
+
+test-job:
+  stage: test
+  script:
+    - echo "Test started"
+    - echo "Test finished"
+
+deploy-job:
+  stage: deploy
+  script:
+    - echo "Deploy started"
+    - echo "Deploy finished"
